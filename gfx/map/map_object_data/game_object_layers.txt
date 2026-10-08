@@ -1,0 +1,60 @@
+﻿# Overrides game/gfx/map/map_object_data/game_object_layers.txt
+#
+# Vanilla drops activities, buildings and units all on zoom step 9, the same
+# step that unloads the three tree layers, the coast foam and the mountain
+# env effects, hides the fort icons, swaps the map names and starts the realm
+# colour overlay. Everything is torn down in one frame.
+#
+# Two of the three move off that step; the holdings stay on vanilla's 9:
+#
+#   layer             vanilla  here   camera height
+#   activities_layer        9     7   295
+#   building_layer          9     9   396
+#   unit_layer              9    10   453
+#   animal_layer            -     9   396   (new: the herds from animals.txt)
+#
+# Holdings stay on step 9 because that is the click on which the realm colour
+# overlay arrives (observed in the political map mode; the define says 10 but
+# the fill is already there on 9), and once the map is painted the castle and
+# town models have nothing left to say. 8 (1.0.0) took them away a click
+# before any colour; 10 and 11 kept them one or two clicks into the painted
+# map for nothing. They share step 9 with the tree layers, as in vanilla; the
+# activities, units, foam, mountain effects, icons and names still leave it.
+# The AGOT patch uses 12 on a map with fewer holdings.
+#
+# animal_layer is new: vanilla keeps the elephant, horse and sheep herds on
+# unit_layer, which this mod holds to step 10 for the armies' sake; the herds
+# get their own layer (see animals.txt) and go on 9 with the holdings.
+
+layer={
+	name="activities_layer"
+	fade_in=0
+	fade_out=7
+	category=""
+	masks=""
+	visibility_tags=""
+}
+layer={
+	name="building_layer"
+	fade_in=0
+	fade_out=9
+	category=""
+	masks=""
+	visibility_tags=""
+}
+layer={
+	name="unit_layer"
+	fade_in=0
+	fade_out=10
+	category=""
+	masks=""
+	visibility_tags=""
+}
+layer={
+	name="animal_layer"
+	fade_in=0
+	fade_out=9
+	category=""
+	masks=""
+	visibility_tags=""
+}

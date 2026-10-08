@@ -1,0 +1,38 @@
+All-in-One Map Pack Without Advanced Shaders
+
+Guide: https://steamcommunity.com/sharedfiles/filedetails/?id=3800254441 — the full settings list these mods are built around.
+
+Four map mods for playing with the Advanced Shaders graphics option off, in one item instead of four. For the vanilla map.
+
+- https://steamcommunity.com/sharedfiles/filedetails/?id=3800159542 — full resolution ground textures instead of the blurry low spec watercolour
+- https://steamcommunity.com/sharedfiles/filedetails/?id=3800565268 — the high spec snow material instead of flat blotches
+- https://steamcommunity.com/sharedfiles/filedetails/?id=3800565988 — animated waves, sun highlight and sky reflection on the ocean and lakes
+- https://steamcommunity.com/sharedfiles/filedetails/?id=3800395737 — the two zoom hitches spread over neighbouring zoom steps
+
+It is the same files as those four mods, byte for byte, with Real Snow switched on: it looks and costs exactly what that playset does. What each change does, what it costs and what it trades away is on the separate mods' pages.
+
+WHY FOUR MODS IN THE FIRST PLACE
+
+The engine compiles shaders with a fixed set of switches driven by the game's own graphics options, and a mod cannot add an entry to the settings menu that reaches the shader compiler. So a feature that should be optional — real snow costs a few milliseconds in winter — can only be made optional by being a separate mod. This pack is for those who want all of it anyway. The separate mods stay, and they are the way to go if you want only some of the four.
+
+USING IT
+
+- Instead of the four separate mods, not together with them. With both in a playset the lower copy of each file wins, and after an update of one side that is a mix of two versions
+- Keep Advanced Shaders off. With it on the shader parts do nothing; the zoom part works either way
+- Graphics-only: no gameplay, script or history files are changed, so ironman and achievements are unaffected
+- Safe to add or remove at any time, including mid-campaign — it does not touch save games
+- The first map load after enabling is slower: the modified shaders are compiled and cached from scratch
+- Built for CK3 1.20.x from Sharp Terrain 2.0.0, Real Snow 1.2.0, Better Water 2.0.0 and Smooth Zoom Transitions 1.1.0
+
+COMPATIBILITY
+
+Replaces pdxterrain.shader, pdxwater.shader and jomini_water_default.fxh in full, plus two map object layer files and animals.txt; the zoom defines only add keys. It conflicts with mods that edit the same files — mostly map graphics overhauls and mods that add map object layers.
+
+Not for A Game of Thrones. On the AGOT map use the separate mods with their AGOT patches; they are listed in the guide and in the AGOT collection.
+
+SOURCE
+
+The pack is generated from the four mods' repositories by one script; the source, the script and an install script for Linux / Proton users are on GitHub:
+https://github.com/mekedron/ck3-lowspec-all-in-one
+
+Issues and pull requests are welcome.
