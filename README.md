@@ -16,6 +16,12 @@ For the vanilla map. It is the same files as the four mods with Real Snow switch
 so it looks and costs exactly the same as that playset. The separate mods stay
 available and are the way to go for anyone who wants only some of the four.
 
+## Where to get
+
+* [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3815911404)
+
+Or build it from this repository - see [Installing](#installing) below.
+
 **Guide:** [CK3 on a potato PC: a locked 60 FPS, and the map still looks sharp](https://steamcommunity.com/sharedfiles/filedetails/?id=3800254441) -
 the full settings list these mods are built around.
 

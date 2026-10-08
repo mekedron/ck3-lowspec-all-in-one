@@ -24,6 +24,7 @@ full-width block. Identifiers are written as plain text instead.
 * **Title:** All-in-One Map Pack Without Advanced Shaders
 * **Tags:** Fixes, Graphics, Utilities — same as `descriptor.mod`
 * **Version:** 1.0.0, `supported_version="1.20.*"`
+* **Workshop item:** 3815911404 (`remote_file_id` in `descriptor.mod`)
 * **Visibility:** public
 * **Collections:** none. The vanilla collection lists the four separate mods; the pack is offered
   as an option in their descriptions and in the guide.

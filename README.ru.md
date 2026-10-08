@@ -16,6 +16,12 @@
 поэтому выглядит и стоит ровно столько же, сколько такой плейсет. Отдельные моды
 остаются, и они — правильный выбор для тех, кому нужны не все четыре.
 
+## Где взять
+
+* [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3815911404)
+
+Или собери из этого репозитория — см. [Установка](#установка) ниже.
+
 **Гайд:** [CK3 on a potato PC: a locked 60 FPS, and the map still looks sharp](https://steamcommunity.com/sharedfiles/filedetails/?id=3800254441) —
 полный список настроек, под которые сделаны эти моды.
 
