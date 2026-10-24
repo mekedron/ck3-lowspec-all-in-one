@@ -1,5 +1,9 @@
 All-in-One Map Pack Without Advanced Shaders
 
+HELP FIX THIS IN THE BASE GAME
+I have asked Paradox for one graphics checkbox that makes the map sharp with Advanced Shaders off — in the game itself, for everyone, with no conflicts with total conversions. If this mod helps you, please like the thread or reply with your GPU, so the developers see how many of us there are:
+https://forum.paradoxplaza.com/forum/threads/1946916/
+
 Guide: https://steamcommunity.com/sharedfiles/filedetails/?id=3800254441 — the full settings list these mods are built around.
 
 Four map mods for playing with the Advanced Shaders graphics option off, in one item instead of four. For the vanilla map.

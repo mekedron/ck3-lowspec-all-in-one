@@ -1,5 +1,9 @@
 [h1]All-in-One Map Pack Without Advanced Shaders[/h1]
 
+[h2]Help fix this in the base game[/h2]
+I have asked Paradox for one graphics checkbox that makes the map sharp with Advanced Shaders off — in the game itself, for everyone, with no conflicts with total conversions. If this mod helps you, please [b]like the thread or reply with your GPU[/b], so the developers see how many of us there are:
+[url=https://forum.paradoxplaza.com/forum/threads/1946916/]Paradox forum: sharp terrain with Advanced Shaders off[/url]
+
 [b]Guide:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3800254441]CK3 on a potato PC: a locked 60 FPS, and the map still looks sharp[/url] — the full settings list these mods are built around.
 
 Four map mods for playing with the [b]Advanced Shaders[/b] graphics option off, in one item instead of four. For the vanilla map.
